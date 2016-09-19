@@ -1,0 +1,240 @@
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\ApplicationInsights.config
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\csc.exe
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\csc.exe.config
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\csc.rsp
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\csi.exe
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\csi.rsp
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\System.AppContext.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\vbc.exe
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\vbc.exe.config
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\vbc.rsp
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\VBCSCompiler.exe
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\Prototype.dll.config
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\Prototype.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\Prototype.pdb
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Helpers.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Mvc.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Razor.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Webpages.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Webpages.Razor.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Razor.xml
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Webpages.xml
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Webpages.Razor.xml
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Helpers.xml
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\bin\System.Web.Mvc.xml
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\obj\Debug\Prototype.dll
+C:\Users\Frederik\Dropbox (Symmetric)\The Wordpress Project\Prototype\Prototype\obj\Debug\Prototype.pdb
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\ApplicationInsights.config
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\csc.exe
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\csc.exe.config
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\csc.rsp
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\csi.exe
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\csi.rsp
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\System.AppContext.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\vbc.exe
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\vbc.exe.config
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\vbc.rsp
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\VBCSCompiler.exe
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\Prototype.dll.config
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\Prototype.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\Prototype.pdb
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Helpers.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Mvc.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Razor.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Webpages.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Webpages.Razor.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Razor.xml
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Webpages.xml
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Webpages.Razor.xml
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Helpers.xml
+C:\Users\Frederik\Desktop\Prototype\Prototype\bin\System.Web.Mvc.xml
+C:\Users\Frederik\Desktop\Prototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Desktop\Prototype\Prototype\obj\Debug\Prototype.dll
+C:\Users\Frederik\Desktop\Prototype\Prototype\obj\Debug\Prototype.pdb
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\ApplicationInsights.config
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csc.exe
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csc.exe.config
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csc.rsp
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csi.exe
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csi.rsp
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.AppContext.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\vbc.exe
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\vbc.exe.config
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\vbc.rsp
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\VBCSCompiler.exe
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\Prototype.dll.config
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\Prototype.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\Prototype.pdb
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Helpers.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Mvc.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Razor.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Razor.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Razor.xml
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.xml
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Razor.xml
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Helpers.xml
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Mvc.xml
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\obj\Debug\Prototype.dll
+C:\Users\Frederik\Dropbox (Personlig)\Websites\SymmetricPrototype\Prototype\obj\Debug\Prototype.pdb
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\ApplicationInsights.config
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csc.exe
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csc.exe.config
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csc.rsp
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csi.exe
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\csi.rsp
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.AppContext.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\vbc.exe
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\vbc.exe.config
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\vbc.rsp
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\VBCSCompiler.exe
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\Prototype.dll.config
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\Prototype.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\Prototype.pdb
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Helpers.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Mvc.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Razor.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Razor.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Razor.xml
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.xml
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Razor.xml
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Helpers.xml
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\bin\System.Web.Mvc.xml
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\obj\Debug\Prototype.dll
+C:\Users\Frederik\Dropbox (Personal)\Websites\SymmetricPrototype\Prototype\obj\Debug\Prototype.pdb
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\ApplicationInsights.config
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\csc.exe
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\csc.exe.config
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\csc.rsp
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\csi.exe
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\csi.rsp
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\System.AppContext.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\vbc.exe
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\vbc.exe.config
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\vbc.rsp
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\VBCSCompiler.exe
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\Prototype.dll.config
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\Prototype.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\Prototype.pdb
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Helpers.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Mvc.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Razor.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Webpages.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Razor.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Razor.xml
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Webpages.xml
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Webpages.Razor.xml
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Helpers.xml
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\bin\System.Web.Mvc.xml
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\obj\Debug\Prototype.dll
+C:\Users\Frederik\Desktop\SymmetricPrototype\Prototype\obj\Debug\Prototype.pdb

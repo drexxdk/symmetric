@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Om os";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>@ViewBag.Title</h2>
+<div id="containers">
+    @Html.Partial("_Menu")
+    <div>
+        @RenderBody()
+    </div>
+</div>

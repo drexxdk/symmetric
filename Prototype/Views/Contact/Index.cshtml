@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Kontakt";
+}
+
+<div id="containers">
+    <div>
+        <h3>Kontaktinformation</h3>
+        <div id="contact-information">
+            <h4>Symmetric</h4>
+            <p>
+                Ny Østergade 12 - 5.sal<br />
+                Kbh. K
+            </p>
+            <ul class="icons-small">
+                <li class="phone">(+45) 61 79 69 57</li>
+                <li class="email"><a href="mailto:info@symmetric.dk">info@symmetric.dk</a></li>
+                <li class="web"><a href="#">symmetric.dk</a></li>
+            </ul>
+
+            <ul class="icons-small">
+                <li class="facebook"><a href="#">Facebook</a></li>
+                <li class="twitter"><a href="#">Twitter</a></li>
+                <li class="google-plus"><a href="#">Google Plus</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h3>Kontaktformular</h3>
+        <form>
+            <input type="text" placeholder="Navn" />
+            <input type="text" placeholder="E-mail" />
+            <input type="text" placeholder="Emne" />
+            <textarea placeholder="Besked"></textarea>
+            <div class="buttons">
+                @*<input type="reset" value="Nulstil" />*@
+                <input type="submit" value="Send" />
+            </div>
+        </form>
+    </div>
+</div>
+<div id="google-maps">
+    @*<img src="~/Content/Images/google-maps.png" alt="" />*@
+</div>

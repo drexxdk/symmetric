@@ -1,0 +1,163 @@
+﻿@using Prototype.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@(String.IsNullOrEmpty(ViewBag.Title) ? "" : ViewBag.Title + " - ")Symmetric</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/Images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="~/Content/Images/Favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="~/Content/Images/Favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="~/Content/Images/Favicon/manifest.json">
+    <link rel="mask-icon" href="~/Content/Images/Favicon/safari-pinned-tab.svg" color="#1a9171">
+    <link rel="shortcut icon" href="~/Content/Images/Favicon/favicon.ico">
+    <meta name="msapplication-config" content="~/Content/Images/Favicon/browserconfig.xml">
+    <meta name="theme-color" content="#1a9171">
+
+    <script src="~/Scripts/modernizr-custom.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:700,400' rel='stylesheet' type='text/css'>
+    <link href="~/Content/layout.css" rel="stylesheet" />
+    @RenderSection("Styles", false)
+</head>
+<body class="fixed-header">
+    <header>
+        <div class="center">
+            <h1>
+                <a href="@Url.Action("Index", "Home")" class="@Html.ActiveActionAndController("Index", "Home")">
+                    <span>
+                        <span></span>
+                    </span>
+                    <span>Symmetric</span>
+                </a>
+            </h1>
+            <nav>
+                <span></span>
+                <ul>
+                    <li class="dropdown" style="min-width:120px;">
+                        <span class="@Html.ActiveController("Products")">
+                            <span>Produkter</span>
+                            <span></span>
+                        </span>
+                        <ul class="icons">
+                            <li>
+                                <a href="@Url.Action("ED", "Products")" class="@Html.ActiveAction("ED")">
+                                    <img src="~/Content/Images/Icons/to-plus-black.png" />
+                                    <span>TO Plus</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="~/Content/Images/Icons/miru-black.png" />
+                                    <span>Miru</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="~/Content/Images/Icons/toxaid-black.png" />
+                                    <span>Toxaid</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="@Url.Action("Index", "Projects")" class="@Html.ActiveController("Projects")">Projekter</a></li>
+                    <li><a href="@Url.Action("Index", "News")" class="@Html.ActiveController("News")">Nyheder</a></li>
+                    <li class="dropdown" style="min-width:120px;">
+                        <span class="@Html.ActiveController("AboutUs")">
+                            <span>Om os</span>
+                            <span></span>
+                        </span>
+                        <ul>
+                            <li><a href="@Url.Action("Vision", "AboutUs")" class="@Html.ActiveAction("Vision")">Vision</a></li>
+                            <li><a href="@Url.Action("Background", "AboutUs")" class="@Html.ActiveAction("Background")">Baggrund</a></li>
+                            <li><a href="@Url.Action("Values", "AboutUs")" class="@Html.ActiveAction("Values")">Værdier</a></li>
+                            <li><a href="@Url.Action("Services", "AboutUs")" class="@Html.ActiveAction("Services")">Ydelser</a></li>
+                            <li><a href="@Url.Action("Employees", "AboutUs")" class="@Html.ActiveAction("Employees")">Ansatte</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="@Url.Action("Index", "Contact")" class="@Html.ActiveController("Contact")">Kontakt</a></li>
+                    <li>
+                        <ul class="select" style="min-width:140px;">
+                            <li>
+                                <span>
+                                    <img src="~/Content/Images/Layout/Country/denmark.png" />
+                                    <span>Dansk</span>
+                                </span>
+                            </li>
+                            <li class="active">
+                                <span>
+                                    <img src="~/Content/Images/Layout/Country/united-states.png" />
+                                    <span>English</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="~/Content/Images/Layout/Country/japan.png" />
+                                    <span>日本語</span>
+                                </span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="content">
+        <div class="center">
+            @RenderBody()
+        </div>
+    </div>
+    <footer>
+        <div>
+
+            <div class="center">
+                <div>
+                    <h3>Symmetric</h3>
+                    <p>
+                        Ny Østergade 12 - 5.sal<br />
+                        Kbh. K
+                    </p>
+                </div>
+                <div>
+                    <ul class="icons-small">
+                        <li class="phone">(+45) 61 79 69 57</li>
+                        <li class="email"><a href="mailto:info@symmetric.dk">info@symmetric.dk</a></li>
+                        <li class="web"><a href="#">symmetric.dk</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Socialt</h3>
+                    <ul class="social">
+                        <li><a href="#" class="facebook" title="Facebook"></a></li>
+                        <li><a href="#" class="twitter" title="Twitter"></a></li>
+                        <li><a href="#" class="google-plus" title="Google Plus"></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Nyhedsbrev</h3>
+                    <form>
+                        <div class="input">
+                            <input type="text" placeholder="E-mail" />
+                            <input type="submit" value="Abonner">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="center">
+                <p>&copy; @DateTime.Now.Year Symmetric</p>
+                <ul>
+                    <li><a href="#">Betingelser</a></li>
+                    <li><a href="#">Privatliv</a></li>
+                    <li><a href="#">Sikkerhed</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div id="back-to-top"></div>
+    <script src="~/Scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/Scripts/layout.min.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>

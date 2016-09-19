@@ -1,0 +1,176 @@
+﻿
+@{
+    ViewBag.Title = "Projekter";
+}
+
+<h2>@ViewBag.Title</h2>
+<div>
+    <ul class="select-type" id="project-types">
+        <li class="active" data-type="All">Alle</li>
+        <li data-type="WorkflowAnalysis">Arbejdsgangsanalyse</li>
+        <li data-type="Implementation">Implementering</li>
+        <li data-type="Evaluation">Evaluering</li>
+        <li data-type="ProjectManagement">Projektledelse</li>
+        <li data-type="Education">Undervisning</li>
+        <li data-type="Development">Udvikling</li>
+    </ul>
+</div>
+<div>
+    <ul class="boxes hex display-3" id="projects">
+        <li data-type="Development Education">
+            <a href="@Url.Action("ED")">
+                <span>
+                    <img src="~/Content/Images/Icons/to-plus-white.png" />
+                </span>
+                <h3>TidligOpsporing Plus</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="Development">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/miru-white.png" />
+                </span>
+                <h3>Miru</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="Development">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/toxaid-white.png" />
+                </span>
+                <h3>Toxaid</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/region-hovestaden.png" />
+                </span>
+                <h3>Bispebjerg Hospital</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/region-hovestaden.png" />
+                </span>
+                <h3>Herlev Hospital</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/region-hovestaden.png" />
+                </span>
+                <h3>Rigshospitalet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/odense-universitetshospital.png" />
+                </span>
+                <h3>Odense Universitetshospital</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/koebenhavns-kommune.png" />
+                </span>
+                <h3>Københavns Kommune</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/aarhus-kommune.png" />
+                </span>
+                <h3>Aarhus Kommune</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/sundhedsstyrelsen.png" />
+                </span>
+                <h3>Sundhedsstyrelsen</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span>
+                    <img src="~/Content/Images/Icons/det-faelles-medicinkort.png" />
+                </span>
+                <h3>Det Fælles Medicinkort</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span></span>
+                <h3>Effektiv SystemAdgang</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span></span>
+                <h3>Hurtig Adgang</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span></span>
+                <h3>Geriatriske amulatorier</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+        <li data-type="">
+            <a href="#">
+                <span></span>
+                <h3>Elektronisk Patient Medicinering</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lectus mauris, eget volutpat elit fringilla in.</p>
+            </a>
+        </li>
+    </ul>
+</div>
+@section Scripts {
+    <script>
+        $(function () {
+            var projects = $("#projects"),
+                project_items = projects.children();
+
+            $("#project-types").on("click", "li:not(.active)", function () {
+                var project_type = $(this),
+                    data_type = project_type.attr("data-type");
+                if(data_type === "All") {
+                    project_items.show();
+                } else {
+                    project_items.each(function () {
+                        var project_item = $(this),
+                            data_types = project_item.attr("data-type").split(" ");
+                        if ($.inArray(data_type, data_types) !== -1) {
+                            project_item.show();
+                        } else {
+                            project_item.hide();
+                        }
+                    });
+                }
+                project_type.siblings(".active").removeClass("active");
+                project_type.addClass("active");
+            });
+        });
+    </script>
+}
