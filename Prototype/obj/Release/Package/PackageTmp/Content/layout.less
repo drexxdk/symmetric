@@ -1,6 +1,6 @@
 ﻿@import "mixins";
 @import "reset";
-@import "animate";
+/*@import "animate";*/
 
 @border-color: #bbb;
 @border-width: 1px;
@@ -100,8 +100,6 @@ html.no-touchevents > body {
         h1:hover > a {
             > span:first-of-type {
                 background-color: black;
-                .bounceIn();
-                .animated();
             }
 
             > span:first-of-type::before {
@@ -221,8 +219,8 @@ html.no-touchevents > body {
 
     .boxes.hex > li > a:hover {
         > span:first-of-type {
-            .swing();
-            .animated();
+            /*.swing();
+            .animated();*/
             background-color: @theme-hover;
         }
 

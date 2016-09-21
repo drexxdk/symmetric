@@ -5,21 +5,15 @@
         nav_button = header_nav.children("span"),
         back_to_top = $('#back-to-top');
 
-    $(document).bind("click touchstart", function (event) {
-        // seperate bind to ensure safari works correctly on touch devices
-
+    $(document).bind("click", function (event) {
         var target = $(event.target);
+        alert("x");
         // mobile menu button
         if (target.closest(nav_button).length == 1) {
             nav_button.toggleClass("open");
         } else if (target.closest(nav_button).length === 0 && target.closest(nav_button.siblings("ul")).length === 0) {
             nav_button.removeClass("open");
         }
-    });
-
-    $(document).bind("click", function (event) {
-        var target = $(event.target);
-
         // dropdown
         var dropdown_button = target.closest(li_dropdown.children("span").children("span"));
         if (dropdown_button.length) {
