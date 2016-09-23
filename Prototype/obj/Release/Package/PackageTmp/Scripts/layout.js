@@ -7,7 +7,7 @@
 
     $(document).bind("click", function (event) {
         var target = $(event.target);
-        alert("x");
+        //alert("x");
         // mobile menu button
         if (target.closest(nav_button).length == 1) {
             nav_button.toggleClass("open");

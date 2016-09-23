@@ -4,10 +4,9 @@
         li_dropdown = header_nav.find("li.dropdown"),
         nav_button = header_nav.children("span"),
         back_to_top = $('#back-to-top');
-
     $(document).bind("click", function (event) {
         var target = $(event.target);
-        alert("x");
+        //alert("x");
         // mobile menu button
         if (target.closest(nav_button).length == 1) {
             nav_button.toggleClass("open");
