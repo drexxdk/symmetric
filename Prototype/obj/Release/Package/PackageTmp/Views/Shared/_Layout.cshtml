@@ -21,6 +21,7 @@
     @RenderSection("Styles", false)
 </head>
 <body class="fixed-header">
+    <span id="overlay"></span>
     <header>
         <div class="center">
             <h1>
@@ -34,7 +35,6 @@
             <nav>
                 <span>
                     <span></span>
-                    <span></span>
                 </span>
                 <ul>
                     <li class="dropdown" style="min-width:120px;">
@@ -45,19 +45,25 @@
                         <ul class="icons">
                             <li>
                                 <a href="@Url.Action("ED", "Products")" class="@Html.ActiveAction("ED")">
-                                    <img src="~/Content/Images/Icons/to-plus-black.png" />
+                                    <span>
+                                        <img src="~/Content/Images/Icons/to-plus.png" />
+                                    </span>
                                     <span>TO Plus</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="~/Content/Images/Icons/miru-black.png" />
+                                    <span>
+                                        <img src="~/Content/Images/Icons/miru.png" />
+                                    </span>
                                     <span>Miru</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="~/Content/Images/Icons/toxaid-black.png" />
+                                    <span>
+                                        <img src="~/Content/Images/Icons/toxaid.png" />
+                                    </span>
                                     <span>Toxaid</span>
                                 </a>
                             </li>
@@ -161,6 +167,7 @@
     <div id="back-to-top"></div>
     <script src="~/Scripts/jquery-2.2.3.min.js"></script>
     <script src="~/Scripts/layout.min.js"></script>
+    @*<script src="~/Scripts/inobounce.min.js"></script>*@
     @RenderSection("Scripts", false)
 </body>
 </html>

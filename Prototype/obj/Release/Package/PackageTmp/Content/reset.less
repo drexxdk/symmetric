@@ -77,3 +77,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+a, button, .myelements
+{
+    /* disable 300 ms delay */
+	-ms-touch-action: manipulation;	/* IE10  */
+	touch-action: manipulation;		/* IE11+ */
+}

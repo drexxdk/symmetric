@@ -18,6 +18,18 @@ body {
     .flex-display();
     .flex-direction(column);
     color: @color-dark;
+
+    > #overlay {
+        display: none;
+        position: fixed;
+        top: -100px;
+        bottom: -100px;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0, .6);
+        z-index: 99;
+        cursor: initial;
+    }
 }
 
 img {
@@ -62,24 +74,30 @@ footer > div > .center {
     max-width: 1040px;
 }
 
+html.touchevents > body {
+    > #overlay,
+    header {
+        cursor: pointer; /* fixes IOS bug, that doesn't register click on elements without "cursor: pointer" */
+    }
+}
+
 html.no-touchevents > body {
     // touch screens can't handle hover effects correctly
     // only non-touch devices like pc should have hover effects
     @media(max-width:939px) {
         header nav {
-            > span:not(.open):hover {
+            > span:hover {
                 background-color: white;
             }
 
-            > span:not(.open):hover::before {
+            > span:hover::before {
                 opacity: 1;
             }
 
-            > span.open + ul > li {
-                > span > a:hover,
-                > a:hover {
-                    background-color: #ddd;
-                }
+            > span.open + ul > li > span > a:hover,
+            > span.open + ul > li > a:hover,
+            > ul > li > a:hover {
+                background-color: #ddd;
             }
         }
     }
@@ -137,6 +155,7 @@ html.no-touchevents > body {
             }
 
             > li.dropdown {
+
                 > span.active:hover > span:last-child {
                     background-color: @theme-hover;
                 }
@@ -173,6 +192,15 @@ html.no-touchevents > body {
                     > a:hover {
                         text-decoration: none;
                     }
+
+                    > a:not(.active):hover {
+                        color: black;
+                    }
+                }
+
+
+                > ul.icons > li > a:hover > span:first-child {
+                    opacity: 1;
                 }
             }
         }
@@ -270,8 +298,20 @@ html.no-touchevents > body {
 }
 
 @media(max-width:799px) {
-    body.fixed-header > header {
+    body.fixed-header header {
         position: relative;
+    }
+
+    body:not(.open) {
+        header nav > ul {
+            display: none;
+        }
+    }
+
+    body.open {
+        > #overlay {
+            display: block;
+        }
     }
 
     header nav {
@@ -283,52 +323,23 @@ html.no-touchevents > body {
             width: 63px;
             display: block;
             border-left: @border-width solid @border-color;
-
-            > span:first-of-type {
-                display: block;
-                height: 100%;
-            }
-
-            > span:first-of-type::before {
-                content: '';
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                .transform(translate(-50%, -50%));
-                width: 16px;
-                height: 16px;
-                background-image: url(Images/Layout/menu.png);
-                background-size: 16px 16px;
-                opacity: .5;
-            }
-        }
-
-        > span.open {
-            > span:last-of-type {
-                position: fixed;
-                top: -100px;
-                bottom: -100px;
-                left: 0;
-                right: 0;
-                background-color: rgba(0,0,0, .6);
-                z-index: 99;
-                cursor: pointer;
-            }
-        }
-
-        > span:not(.open) {
             cursor: pointer;
         }
 
-        > span:not(.open) + ul {
-            display: none;
+        > span::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            .transform(translate(-50%, -50%));
+            width: 16px;
+            height: 16px;
+            background-image: url(Images/Layout/menu.png);
+            background-size: 16px 16px;
+            opacity: .5;
         }
 
-
-
-
-
-        > span.open + ul::before {
+        > ul::before {
             content: '';
             position: absolute;
             top: -9px;
@@ -341,7 +352,7 @@ html.no-touchevents > body {
             border-bottom: 9px solid @border-color;
         }
 
-        > span.open + ul::after {
+        ul::after {
             content: '';
             position: absolute;
             top: -8px;
@@ -354,7 +365,7 @@ html.no-touchevents > body {
             border-bottom: 8px solid white;
         }
 
-        > span.open + ul {
+        > ul {
             position: absolute;
             top: calc(~"100% + 12px");
             left: 10px;
@@ -390,8 +401,8 @@ html.no-touchevents > body {
                     }
 
                     > li:first-child::after {
-                        top: 12px;
-                        right: 12px;
+                        top: 14px;
+                        right: 14px;
                     }
 
                     > li.open ~ li {
@@ -438,7 +449,7 @@ html.no-touchevents > body {
 
 @media(min-width:800px) {
     body.fixed-header {
-        > header {
+        header {
             position: fixed;
             top: 0;
             left: 0;
@@ -506,8 +517,8 @@ html.no-touchevents > body {
                     }
 
                     > li:first-child::after {
-                        top: 7px;
-                        right: 7px;
+                        top: 9px;
+                        right: 9px;
                     }
 
                     > li.open ~ li:last-child {
@@ -764,17 +775,6 @@ header {
                             background-color: #ddd;
                         }
 
-
-                        > li:first-child::after {
-                            content: '';
-                            position: absolute;
-                            width: 16px;
-                            height: 16px;
-                            background-image: url(Images/Layout/dropdown.png);
-                            background-size: 32px 32px;
-                            opacity: .5;
-                        }
-
                         > li:first-child.open:after {
                             background-position: bottom left;
                         }
@@ -796,6 +796,17 @@ header {
                             display: block;
                         }
                     }
+                }
+
+                > li ul.select > li:first-child::after,
+                > li.dropdown > span > span:last-child::before {
+                    content: '';
+                    position: absolute;
+                    width: 12px;
+                    height: 12px;
+                    background-image: url(Images/Layout/dropdown.png);
+                    background-size: 24px 24px;
+                    opacity: .5;
                 }
 
                 > li.dropdown {
@@ -834,22 +845,15 @@ header {
                             background-color: #ddd;
                         }
 
-                        > span {
-                            display: block;
-                            cursor: pointer;
-                        }
-
                         > span:last-child::before {
-                            content: '';
-                            position: absolute;
                             top: 50%;
                             left: 50%;
                             .transform(translate(-50%, -50%));
-                            width: 16px;
-                            height: 16px;
-                            background-image: url(Images/Layout/dropdown.png);
-                            background-size: 32px 32px;
-                            opacity: .5;
+                        }
+
+                        > span {
+                            display: block;
+                            cursor: pointer;
                         }
 
                         > *:first-child {
@@ -864,17 +868,34 @@ header {
 
                     > ul.icons {
                         > li {
+                            > a.active > span:first-child {
+                                opacity: 1;
+
+                                > img {
+                                    bottom: 0;
+                                }
+                            }
+
                             > a {
                                 .flex-display();
 
-                                > img {
+                                > span:first-child {
                                     margin: 2px 0;
                                     width: 16px;
                                     height: 16px;
                                     opacity: .5;
+                                    overflow: hidden;
+                                    position: relative;
+
+                                    > img {
+                                        position: absolute;
+                                        left: 0;
+                                        width: 16px;
+                                        height: 32px;
+                                    }
                                 }
 
-                                > span {
+                                > span:last-child {
                                     margin-left: 5px;
                                     .flex-grow(1);
                                     white-space: nowrap;
