@@ -1,0 +1,93 @@
+﻿@mediumDuration: .3s;
+@webkit: true;
+@moz: false;
+@ms: false;
+@o: false;
+@shadowColor: rgba(0, 0, 0, .6);
+@primaryColor: #e1e1e1;
+
+.prefixed(@property, @value) {
+  & when (@webkit = true) {
+    -webkit-@{property}: @value;
+  }
+
+  & when (@moz = true) {
+      -moz-@{property}: @value;
+  }
+
+  & when (@ms = true) {
+      -ms-@{property}: @value;
+  }
+
+  & when (@o = true) {
+      -o-@{property}: @value;
+  }
+
+  @{property}: @value;
+}
+
+.hardwareAccel() {
+	// Improve performance on mobile/tablet devices
+	.prefixed(transform, translateZ(0));
+}
+
+.improveAntiAlias() {
+	// Improve aliasing on mobile/tablet devices
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.fontSmooth() {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.forceBlockLevel() {
+	// Transforms need to be block-level to work
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hacks() {
+	.forceBlockLevel();
+	.hardwareAccel();
+	.improveAntiAlias();
+	.fontSmooth();
+}
+
+
+.shadow() {
+	.hacks();
+	.prefixed(transition-duration, @mediumDuration);
+	.prefixed(transition-property, box-shadow);
+
+	&:hover,
+	&:focus,
+	&:active {
+		box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+	}
+}
+
+.glow() {
+	.hacks();
+	.prefixed(transition-duration, @mediumDuration);
+	.prefixed(transition-property, box-shadow);
+
+	&:hover,
+	&:focus,
+	&:active {
+		box-shadow: 0 0 8px @shadowColor;
+	}
+}
+
+.grow() {
+	.hacks();
+	.prefixed(transition-duration, @mediumDuration);
+	.prefixed(transition-property, transform);
+
+	&:hover,
+	&:focus,
+	&:active {
+		.prefixed(transform, scale(1.1));
+	}
+}

@@ -1,5 +1,6 @@
 ﻿@import "mixins";
 @import "reset";
+@import "hover";
 /*@import "animate";*/
 
 @border-color: #bbb;
@@ -104,6 +105,7 @@ html.no-touchevents > body {
 
     @media(min-width:940px) {
         header nav > ul > li {
+            .shadow();
             > a:hover {
                 border-color: @border-color;
             }
@@ -140,8 +142,16 @@ html.no-touchevents > body {
                 }
 
                 ul.select {
-                    > li:first-child:hover::before {
-                        background-color: #ccc;
+                    > li:first-child:hover {
+                        background-color: white;
+                    }
+
+                    > li:hover {
+                        color: black;
+
+                        > span > img {
+                            opacity: 1;
+                        }
                     }
 
                     > li:first-child:hover::after {
@@ -150,26 +160,25 @@ html.no-touchevents > body {
 
                     > li.open ~ li:hover {
                         background-color: #ddd;
+
+                        > span > span {
+                        }
                     }
                 }
             }
 
             > li.dropdown {
 
-                > span.active:hover > span:last-child {
+                > span.active:hover {
                     background-color: @theme-hover;
                 }
 
-                > span.active > span:hover + span {
-                    background-color: @theme-hover;
+                > span:not(.active):hover {
+                    background-color: white;
+                    color: black;
                 }
 
                 > span {
-                    > span:hover + span,
-                    > span:last-child:hover {
-                        background-color: #ccc;
-                    }
-
                     > span:hover + span::before,
                     > span:last-child:hover::before {
                         opacity: 1;
@@ -182,7 +191,7 @@ html.no-touchevents > body {
 
                 > ul > li {
                     > a.active:hover {
-                        background-color: @theme-hover;
+                        background-color: #707070;
                     }
 
                     > a:not(.active):hover {
@@ -236,6 +245,10 @@ html.no-touchevents > body {
     }
 
     form {
+        .submit {
+            .grow();
+        }
+
         input[type=submit]:hover {
             background-color: @theme-hover;
         }
@@ -265,7 +278,9 @@ html.no-touchevents > body {
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
     }
-
+    .boxes > li > a {
+        .glow();
+    }
     .boxes > li:hover > a {
         background-color: #eee;
         border-color: @border-color;
@@ -422,8 +437,7 @@ html.no-touchevents > body {
                     }
 
                     > span:last-child {
-                        border-left: @border-width solid @border-color;
-                        width: 41px;
+                        width: 40px;
                         height: 40px;
                     }
                 }
@@ -530,31 +544,29 @@ html.no-touchevents > body {
 
             > li.dropdown {
                 > span.open {
-                    > *:first-child {
+                    .border-radius(5px 5px 0 0);
+                    /*> *:first-child {
                         .border-radius(5px 0 0 0);
                     }
 
                     > span:last-child {
                         .border-radius(0 5px 0 0);
-                    }
+                    }*/
+                }
+
+                > span:not(.open) {
+                    .border-radius(5px);
                 }
 
                 > span {
-
+                        border: @border-width solid @border-color;
                     > *:first-child {
                         padding: 5px 10px;
-                        background-color: white;
-                        border: @border-width solid @border-color;
-                        .border-radius(5px 0 0 5px);
                     }
 
                     > span:last-child {
-                        width: 33px;
-                        height: 32px;
-                        .border-radius(0 5px 5px 0);
-                        border-top: @border-width solid @border-color;
-                        border-bottom: @border-width solid @border-color;
-                        border-right: @border-width solid @border-color;
+                        width: 30px;
+                        height: 30px;
                     }
                 }
 
@@ -737,7 +749,6 @@ header {
                         .border-radius(5px);
 
                         > li {
-                            background-color: white;
                             .flex-display();
                             overflow: hidden;
                             cursor: pointer;
@@ -749,11 +760,11 @@ header {
                                     margin: 2px 5px 2px 0;
                                     width: 24px;
                                     height: 16px;
+                                    opacity: .5;
                                 }
 
                                 > span {
                                     display: block;
-                                    color: @color-dark;
                                     line-height: 20px;
                                     white-space: nowrap;
                                     overflow: hidden;
@@ -771,8 +782,8 @@ header {
                             position: absolute;
                             top: 0;
                             right: 0;
-                            border-left: @border-width solid @border-color;
-                            background-color: #ddd;
+                            /*border-left: @border-width solid @border-color;
+                            background-color: #ddd;*/
                         }
 
                         > li:first-child.open:after {
@@ -781,6 +792,7 @@ header {
 
                         > li:not(:first-child) {
                             display: none;
+                            background-color: white;
                         }
 
                         > li.open ~ li {
@@ -813,10 +825,8 @@ header {
                     position: relative;
 
                     > span.active {
-                        > span:last-child {
-                            color: white;
-                            background-color: @theme;
-                        }
+                        background-color: @theme;
+                        color: white;
 
                         > span:last-child::before {
                             background-position: top right;
@@ -842,7 +852,7 @@ header {
 
                         > span:last-child {
                             position: relative;
-                            background-color: #ddd;
+                            /*background-color: #ddd;*/
                         }
 
                         > span:last-child::before {
@@ -931,7 +941,7 @@ header {
 
                             > a.active {
                                 color: white;
-                                background-color: @theme;
+                                background-color: #808080;
                             }
                         }
                     }
@@ -1417,7 +1427,7 @@ form {
 
     .buttons {
         .flex-display();
-
+        > .submit,
         > input[type=submit] {
             margin-left: auto;
         }
@@ -1557,13 +1567,11 @@ ul.icons-small {
     }
 
     > li {
-        overflow: hidden;
-
         > a,
         > div {
             background-color: #eee;
-            .border-radius(10px);
             padding: initial;
+            border:none;
 
             > h3 {
                 padding: 10px;
@@ -1608,6 +1616,7 @@ ul.icons-small {
 
 .boxes.hex {
     > li {
+        .flex-display();
         > a,
         > div {
             > span:first-of-type {
