@@ -43,6 +43,10 @@ img {
 ul.bullets {
     list-style-type: disc;
     list-style-position: inside;
+
+    > li + li {
+        margin-top:2px;
+    }
 }
 
 h2 {
@@ -76,8 +80,7 @@ footer > div > .center {
 }
 
 html.touchevents > body {
-    > #overlay,
-    header {
+    > #overlay {
         cursor: pointer; /* fixes IOS bug, that doesn't register click on elements without "cursor: pointer" */
     }
 }
@@ -1052,6 +1055,7 @@ header {
             margin-left: 20px;
             margin-right: 20px;
 
+            > p + ul,
             > p + .table {
                 margin-top: 5px;
             }
@@ -1468,10 +1472,6 @@ ul.icons-small {
         margin-top: 20px !important;
     }
 
-    a {
-        color: @theme-hover;
-    }
-
     > ul.icons-small {
 
         > li.phone::before {
@@ -1570,7 +1570,7 @@ ul.icons-small {
         > a,
         > div {
             background-color: #eee;
-            padding: initial;
+            padding: 0;
             border:none;
 
             > h3 {

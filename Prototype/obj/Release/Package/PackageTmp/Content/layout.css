@@ -109,6 +109,9 @@ ul.bullets {
   list-style-type: disc;
   list-style-position: inside;
 }
+ul.bullets > li + li {
+  margin-top: 2px;
+}
 h2 {
   margin-left: 20px;
   margin-right: 20px;
@@ -134,8 +137,7 @@ header > .center,
 footer > div > .center {
   max-width: 1040px;
 }
-html.touchevents > body > #overlay,
-html.touchevents > body header {
+html.touchevents > body > #overlay {
   cursor: pointer;
   /* fixes IOS bug, that doesn't register click on elements without "cursor: pointer" */
 }
@@ -1039,6 +1041,7 @@ header > div nav > ul > li.dropdown > ul > li > a.active {
   margin-left: 20px;
   margin-right: 20px;
 }
+#content > .center > div:not(#containers) > p + ul,
 #content > .center > div:not(#containers) > p + .table {
   margin-top: 5px;
 }
@@ -1477,9 +1480,6 @@ ul.icons-small > li::before {
 #contact-information > ul {
   margin-top: 20px !important;
 }
-#contact-information a {
-  color: rgba(26, 145, 113, 0.8);
-}
 #contact-information > ul.icons-small > li.phone::before {
   background-image: url(Images/Layout/phone-theme.png);
 }
@@ -1543,7 +1543,7 @@ ul.icons-small > li::before {
 .boxes.prices > li > a,
 .boxes.prices > li > div {
   background-color: #eee;
-  padding: initial;
+  padding: 0;
   border: none;
 }
 .boxes.prices > li > a > h3,
