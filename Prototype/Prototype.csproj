@@ -230,6 +230,7 @@
     <Content Include="Views\AboutUs\_Layout.cshtml" />
     <Content Include="Content\Images\Favicon\manifest.json" />
     <Content Include="Content\animate.less" />
+    <Content Include="Content\hover.less" />
     <None Include="Properties\PublishProfiles\WordpressPrototype - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\WordpressPrototype - Web Deploy.pubxml" />
     <Content Include="Views\Products\ED.cshtml" />
