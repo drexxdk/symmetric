@@ -117,6 +117,7 @@
     <Content Include="Content\Images\Icons\menu.png" />
     <Content Include="Content\Images\Icons\miru-black.png" />
     <Content Include="Content\Images\Icons\miru-white.png" />
+    <Content Include="Content\Images\Icons\miru.png" />
     <Content Include="Content\Images\Icons\odense-universitetshospital.png" />
     <Content Include="Content\Images\Icons\phone-theme.png" />
     <Content Include="Content\Images\Icons\phone-white.png" />
@@ -124,8 +125,10 @@
     <Content Include="Content\Images\Icons\sundhedsstyrelsen.png" />
     <Content Include="Content\Images\Icons\to-plus-black.png" />
     <Content Include="Content\Images\Icons\to-plus-white.png" />
+    <Content Include="Content\Images\Icons\to-plus.png" />
     <Content Include="Content\Images\Icons\toxaid-black.png" />
     <Content Include="Content\Images\Icons\toxaid-white.png" />
+    <Content Include="Content\Images\Icons\toxaid.png" />
     <Content Include="Content\Images\Icons\twitter-theme.png" />
     <Content Include="Content\Images\Icons\twitter-white.png" />
     <Content Include="Content\Images\Icons\web-theme.png" />
