@@ -160,20 +160,27 @@ html.touchevents > body > #overlay {
   cursor: pointer;
   /* fixes IOS bug, that doesn't register click on elements without "cursor: pointer" */
 }
-@media (max-width: 939px) {
+@media (max-width: 799px) {
   html.no-touchevents > body header nav > span:hover {
     background-color: white;
   }
   html.no-touchevents > body header nav > span:hover::before {
     opacity: 1;
   }
+  html.no-touchevents > body header nav > ul > li.dropdown > span:hover,
+  html.no-touchevents > body header nav > ul > li ul.select > li:first-child:hover,
   html.no-touchevents > body header nav > span.open + ul > li > span > a:hover,
   html.no-touchevents > body header nav > span.open + ul > li > a:hover,
   html.no-touchevents > body header nav > ul > li > a:hover {
     background-color: #ddd;
   }
 }
-@media (min-width: 940px) {
+@media (min-width: 800px) {
+  html.no-touchevents > body header nav > ul > li.dropdown > span:hover,
+  html.no-touchevents > body header nav > ul ul.select > li:first-child:hover,
+  html.no-touchevents > body header nav > ul > li > a:not(.active):hover {
+    background-color: white;
+  }
   html.no-touchevents > body header nav > ul > li {
     display: inline-block;
     vertical-align: middle;
@@ -196,9 +203,6 @@ html.touchevents > body > #overlay {
   html.no-touchevents > body header nav > ul > li > a:hover {
     border-color: #bbb;
   }
-  html.no-touchevents > body header nav > ul > li > a:not(.active):hover {
-    background-color: white;
-  }
 }
 html.no-touchevents > body header > div h1:hover > a > span:first-of-type {
   background-color: black;
@@ -214,9 +218,6 @@ html.no-touchevents > body header > div h1:hover > a > span:last-of-type {
 }
 html.no-touchevents > body header > div nav > ul > li > a.active:hover {
   background-color: rgba(26, 145, 113, 0.8);
-}
-html.no-touchevents > body header > div nav > ul > li ul.select > li:first-child:hover {
-  background-color: white;
 }
 html.no-touchevents > body header > div nav > ul > li ul.select > li:hover {
   color: black;
@@ -234,7 +235,6 @@ html.no-touchevents > body header > div nav > ul > li.dropdown > span.active:hov
   background-color: rgba(26, 145, 113, 0.8);
 }
 html.no-touchevents > body header > div nav > ul > li.dropdown > span:not(.active):hover {
-  background-color: white;
   color: black;
 }
 html.no-touchevents > body header > div nav > ul > li.dropdown > span > span:hover + span::before,
@@ -443,7 +443,7 @@ html.no-touchevents > body #back-to-top:hover::before {
     padding-right: 41px;
   }
   header nav > ul > li > ul.select > li:first-child:hover {
-    background-color: #ddd!important;
+    /*background-color:#ddd!important;*/
     /* have to look into why important is needed here */
   }
   header nav > ul > li > ul.select > li:first-child.open {
@@ -471,7 +471,7 @@ html.no-touchevents > body #back-to-top:hover::before {
     height: 40px;
   }
   header nav > ul > li.dropdown > span:hover {
-    background-color: #ddd!important;
+    /*background-color:#ddd!important;*/
     /* have to look into why important is needed here */
   }
   header nav > ul > li.dropdown > span.open + ul {

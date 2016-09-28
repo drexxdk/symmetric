@@ -42,19 +42,19 @@ img {
 
 ul.bullets {
     > li {
-        position:relative;
-        padding-left:12px;
+        position: relative;
+        padding-left: 12px;
     }
 
     > li::before {
-        content:'';
-        width:5px;
-        height:5px;
+        content: '';
+        width: 5px;
+        height: 5px;
         .border-radius(2.5px);
-        background-color:@border-color;
-        position:absolute;
-        top:50%;
-        left:0;
+        background-color: @border-color;
+        position: absolute;
+        top: 50%;
+        left: 0;
         .transform(translate(0, -50%));
     }
 
@@ -102,7 +102,7 @@ html.touchevents > body {
 html.no-touchevents > body {
     // touch screens can't handle hover effects correctly
     // only non-touch devices like pc should have hover effects
-    @media(max-width:939px) {
+    @media(max-width:799px) {
         header nav {
             > span:hover {
                 background-color: white;
@@ -112,6 +112,8 @@ html.no-touchevents > body {
                 opacity: 1;
             }
 
+            > ul > li.dropdown > span:hover,
+            > ul > li ul.select > li:first-child:hover,
             > span.open + ul > li > span > a:hover,
             > span.open + ul > li > a:hover,
             > ul > li > a:hover {
@@ -120,16 +122,19 @@ html.no-touchevents > body {
         }
     }
 
-    @media(min-width:940px) {
-        header nav > ul > li {
-            .shadow();
-
-            > a:hover {
-                border-color: @border-color;
+    @media(min-width:800px) {
+        header nav > ul {
+            > li.dropdown > span:hover,
+            ul.select > li:first-child:hover,
+            > li > a:not(.active):hover  {
+                background-color:white;
             }
+            > li {
+                .shadow();
 
-            > a:not(.active):hover {
-                background-color: white;
+                > a:hover {
+                    border-color: @border-color;
+                }
             }
         }
     }
@@ -160,10 +165,6 @@ html.no-touchevents > body {
                 }
 
                 ul.select {
-                    > li:first-child:hover {
-                        background-color: white;
-                    }
-
                     > li:hover {
                         color: black;
 
@@ -192,7 +193,6 @@ html.no-touchevents > body {
                 }
 
                 > span:not(.active):hover {
-                    background-color: white;
                     color: black;
                 }
 
@@ -359,7 +359,7 @@ html.no-touchevents > body {
             display: block;
             border-left: @border-width solid @border-color;
             cursor: pointer;
-            background-color:#eee;
+            background-color: #eee;
         }
 
         > span::before {
@@ -428,7 +428,7 @@ html.no-touchevents > body {
                     }
 
                     > li:first-child:hover {
-                        background-color:#ddd!important; /* have to look into why important is needed here */
+                        /*background-color:#ddd!important;*/ /* have to look into why important is needed here */
                     }
 
                     > li:first-child.open {
@@ -466,10 +466,11 @@ html.no-touchevents > body {
                         height: 40px;
                     }
                 }
+
                 > span:hover {
-                    background-color:#ddd!important; /* have to look into why important is needed here */
+                    /*background-color:#ddd!important;*/ /* have to look into why important is needed here */
                 }
-                
+
                 > span.open + ul {
                     border-top: @border-width solid @border-color;
                 }
@@ -528,7 +529,7 @@ html.no-touchevents > body {
 
 
                 > ul.select {
-                    background-color:#eee;
+                    background-color: #eee;
                     height: 32px;
 
                     > li {
@@ -572,7 +573,8 @@ html.no-touchevents > body {
             }
 
             > li.dropdown {
-                background-color:#eee;
+                background-color: #eee;
+
                 > span.open {
                     .border-radius(5px 5px 0 0);
                     /*> *:first-child {
